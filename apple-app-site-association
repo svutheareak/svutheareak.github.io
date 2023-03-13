@@ -8,7 +8,13 @@
             },
             {
                 "appID": "CYC6JV9GCX.io.github.svutheareak",
-                "paths": [ "NOT /e/*", "*", "/", "NOT /readerqr?*","/failpages/fail.html "]
+                "paths": [ 
+                    "NOT /e/*", 
+                    "*", 
+                    "/", 
+                    "/readerqr?*",
+                    "/failpages/fail.html ",
+                    "/readerqr/*"]
             }
         ]
     }
