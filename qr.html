@@ -25,7 +25,7 @@
         <button>Click me</button>
     </a>
 
-    <button id="qrcode1">Click me</button>
+    <button id="qrcode1">Click me123</button>
 </body>
 
 <script>
@@ -40,7 +40,7 @@
     correctLevel : QRCode.CorrectLevel.H
     });
     let btn = document.getElementById("qrcode1")
-    btn.addEventListener("click", myFunc)
+    btn.addEventListener("click", goToWeb)
 
     function goToApp(appLocation, fallbackLocation) {
 
@@ -50,8 +50,10 @@
         window.location = "nativeappURL://" + appLocation;
         }
 
-        function goToWeb(baseurl, webLocation) {
-        window.location =baseurl + "/"+ webLocation;
+        function goToWeb() {
+        // window.location =baseurl + "/"+ webLocation;
+        window.location = "https://www.google.com"
+        console.log("cliced")
         }|
 </script>
 </html>
