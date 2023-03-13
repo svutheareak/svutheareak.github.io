@@ -16,12 +16,16 @@
     <div class="container">
         <h1>generate QR</h1>
     </div>
+
     <div class="container">
         <div id="qrcode"></div>
     </div>
+
     <a href="https://svutheareak.github.io/readqr?policyNo=1234567890">
         <button>Click me</button>
     </a>
+
+    <button id="qrcode1">Click me</button>
 </body>
 
 <script>
@@ -35,5 +39,19 @@
     colorLight : '#fff',
     correctLevel : QRCode.CorrectLevel.H
     });
+    let btn = document.getElementById("qrcode1")
+    btn.addEventListener("click", myFunc)
+
+    function goToApp(appLocation, fallbackLocation) {
+
+        setTimeout(function() {
+            window.location = fallbackLocation;
+            }, 5);
+        window.location = "nativeappURL://" + appLocation;
+        }
+
+        function goToWeb(baseurl, webLocation) {
+        window.location =baseurl + "/"+ webLocation;
+        }|
 </script>
 </html>
