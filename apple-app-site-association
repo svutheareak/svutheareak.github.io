@@ -4,10 +4,6 @@
         "details": [
             {
                 "appID": "CYC6JV9GCX.io.github.svutheareak",
-                "paths": [ "/check/*" ]
-            },
-            {
-                "appID": "CYC6JV9GCX.io.github.svutheareak",
                 "paths": ["*"]
             }
         ]
