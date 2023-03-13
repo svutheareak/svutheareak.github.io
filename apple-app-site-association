@@ -4,7 +4,11 @@
         "details": [
             {
                 "appID": "CYC6JV9GCX.io.github.svutheareak",
-                "paths": [ "http://onelink.to/4fzpw5" ]
+                "paths": [ "/check/*" ]
+            },
+            {
+                "appID": "CYC6JV9GCX.io.github.svutheareak",
+                "paths": [ "NOT /e/*", "*", "/", "/failpages/fail.html "]
             }
         ]
     }
