@@ -12,9 +12,9 @@
                     "NOT /e/*", 
                     "*", 
                     "/", 
-                    "/readerqr?*",
-                    "/failpages/fail.html ",
-                    "/readerqr/*"]
+                    "/readqr?*",
+                    "NOT /readqr?*",
+                    "/failpages/fail.html "]
             }
         ]
     }
