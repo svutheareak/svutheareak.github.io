@@ -13,6 +13,8 @@
                     "*", 
                     "/", 
                     "/readqr?*",
+                    "/rrpay?*",
+                    "/xdbank://*",
                     "/failpages/fail.html "]
             }
         ]
