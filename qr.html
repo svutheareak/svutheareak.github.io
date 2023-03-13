@@ -20,14 +20,13 @@
     <div class="container" style="background-color: cornflowerblue;">
         <div id="qrcode"></div>
     </div>
-    <a href="https://svutheareak.github.io/readqr?xdbank://rrpay?policyNo=1234567890">
-        <button>Click me</button>
-    </a>
 </body>
 
 <script>
     const qrcode = new QRCode(document.getElementById('qrcode'), {
-    text: 'https://svutheareak.github.io/readqr?xdbank://rrpay?policyNo=1234567890',
+    //We use to superate string at gen url and we also can encrypt it and pass to get url param.
+    // text: 'https://svutheareak.github.io/readqr?' + 'policyNo=1234567890',
+    text: 'https://svutheareak.github.io/readqr?policyNo=1234567890',
     width: 128,
     height: 128,
     colorDark : '#000',
