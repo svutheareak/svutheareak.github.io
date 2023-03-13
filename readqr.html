@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read and redirect</title>
+</head>
+<body>
+    <div id="redirectLink">hello</div>
+</body>
+<script id="redirectLink">
+    const queryString = window.location.search;
+    console.log(queryString);
+    var link1 = 'xdbank://rrpay' + queryString ;
+    window.setTimeout(function(){
+        window.location.href = link1;
+        }, 500);
+</script>
+
+</html>
