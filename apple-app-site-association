@@ -8,14 +8,7 @@
             },
             {
                 "appID": "CYC6JV9GCX.io.github.svutheareak",
-                "paths": [ 
-                    "NOT /e/*", 
-                    "*", 
-                    "/", 
-                    "/readqr?*",
-                    "/rrpay?*",
-                    "/xdbank://*",
-                    "/failpages/fail.html "]
+                "paths": ["*"]
             }
         ]
     }
