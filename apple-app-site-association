@@ -13,7 +13,6 @@
                     "*", 
                     "/", 
                     "/readqr?*",
-                    "NOT /readqr?*",
                     "/failpages/fail.html "]
             }
         ]
